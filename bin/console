@@ -1,0 +1,23 @@
+#!/usr/bin/env php
+<?php
+use Symfony\Component\Console\Application;
+use Pimple\Container;
+use Pheanstalk\Pheanstalk;
+use Acme\Worker\Console\Command\DaemoniseCommand;
+use Acme\Worker\PheanstalkWorker;
+
+require_once __DIR__.'/../bootstrap.php';
+
+// @see http://php.net/manual/en/info.configuration.php#ini.max-execution-time
+// for asshole
+set_time_limit(0);
+
+$container = new Container();
+
+$container['worker'] = $container->protect(function () {
+    return new PheanstalkWorker(new Pheanstalk('127.0.0.1'));
+});
+
+$console = new Application();
+$console->add(new DaemoniseCommand($container));
+$console->run();
