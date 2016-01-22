@@ -231,12 +231,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sergiors/worker.git",
-                "reference": "3aa576aea40620cfd34bbeb91f7936755482d72a"
+                "reference": "5530347d7c0c8709b59c5e98190cf17d4d9ca703"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sergiors/worker/zipball/3aa576aea40620cfd34bbeb91f7936755482d72a",
-                "reference": "3aa576aea40620cfd34bbeb91f7936755482d72a",
+                "url": "https://api.github.com/repos/sergiors/worker/zipball/5530347d7c0c8709b59c5e98190cf17d4d9ca703",
+                "reference": "5530347d7c0c8709b59c5e98190cf17d4d9ca703",
                 "shasum": ""
             },
             "require": {
@@ -272,7 +272,7 @@
                     "email": "sergio@inbep.com.br"
                 }
             ],
-            "time": "2016-01-15 03:46:59"
+            "time": "2016-01-20 20:43:41"
         },
         {
             "name": "symfony/console",
