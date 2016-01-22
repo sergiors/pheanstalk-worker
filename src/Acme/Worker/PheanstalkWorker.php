@@ -2,10 +2,10 @@
 namespace Acme\Worker;
 
 use Pheanstalk\PheanstalkInterface;
-use Sergiors\Worker\Worker as WorkerBase;
+use Sergiors\Worker\AbstractWorker;
 use Sergiors\Worker\Command\CommandInterface;
 
-class PheanstalkWorker extends WorkerBase
+class PheanstalkWorker extends AbstractWorker
 {
     /**
      * @var PheanstalkInterface
