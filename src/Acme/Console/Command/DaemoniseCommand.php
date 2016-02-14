@@ -30,7 +30,7 @@ class DaemoniseCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $invoker = new Invoker($this->container);
+        $invoker = new Invoker();
         $worker = $this->container['worker']();
 
         $output->writeln('<info>Instance Hash</info>: '.$worker->getInstanceHash());

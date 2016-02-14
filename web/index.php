@@ -11,6 +11,7 @@ $queue = new PheanstalkWorker(new Pheanstalk('127.0.0.1'));
 $who = Factory::create();
 
 $coffee = new LetsDoCoffee();
+
 $queue->put($coffee);
 
 $beer = new BringMeBeer();

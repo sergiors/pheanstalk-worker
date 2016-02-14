@@ -1,9 +1,9 @@
 <?php
 namespace Acme\Worker\Job;
 
-use Sergiors\Worker\Command\AbstractCommand;
+use Sergiors\Worker\Command\CommandInterface;
 
-class LetsDoCoffee extends AbstractCommand
+class LetsDoCoffee implements CommandInterface
 {
     public function execute()
     {

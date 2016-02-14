@@ -269,12 +269,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sergiors/worker.git",
-                "reference": "7cee79416a929db4b4146746604a099fa9e3df16"
+                "reference": "c904e78bda7a833f54fd7f622b7e07e3bb95b761"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sergiors/worker/zipball/7cee79416a929db4b4146746604a099fa9e3df16",
-                "reference": "7cee79416a929db4b4146746604a099fa9e3df16",
+                "url": "https://api.github.com/repos/sergiors/worker/zipball/c904e78bda7a833f54fd7f622b7e07e3bb95b761",
+                "reference": "c904e78bda7a833f54fd7f622b7e07e3bb95b761",
                 "shasum": ""
             },
             "require": {
@@ -311,20 +311,20 @@
                     "email": "sergio@inbep.com.br"
                 }
             ],
-            "time": "2016-01-22 19:36:00"
+            "time": "2016-02-14 01:47:02"
         },
         {
             "name": "symfony/console",
-            "version": "v3.0.1",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "ebcdc507829df915f4ca23067bd59ee4ef61f6c3"
+                "reference": "5a02eaadaa285e2bb727eb6bbdfb8201fcd971b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/ebcdc507829df915f4ca23067bd59ee4ef61f6c3",
-                "reference": "ebcdc507829df915f4ca23067bd59ee4ef61f6c3",
+                "url": "https://api.github.com/repos/symfony/console/zipball/5a02eaadaa285e2bb727eb6bbdfb8201fcd971b0",
+                "reference": "5a02eaadaa285e2bb727eb6bbdfb8201fcd971b0",
                 "shasum": ""
             },
             "require": {
@@ -371,20 +371,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2015-12-22 10:39:06"
+            "time": "2016-02-02 13:44:19"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "49ff736bd5d41f45240cec77b44967d76e0c3d25"
+                "reference": "1289d16209491b584839022f29257ad859b8532d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/49ff736bd5d41f45240cec77b44967d76e0c3d25",
-                "reference": "49ff736bd5d41f45240cec77b44967d76e0c3d25",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/1289d16209491b584839022f29257ad859b8532d",
+                "reference": "1289d16209491b584839022f29257ad859b8532d",
                 "shasum": ""
             },
             "require": {
@@ -396,7 +396,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -430,7 +430,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2015-11-20 09:19:13"
+            "time": "2016-01-20 09:13:37"
         }
     ],
     "packages-dev": [],

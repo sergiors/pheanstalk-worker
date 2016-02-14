@@ -1,9 +1,9 @@
 <?php
 namespace Acme\Worker\Job;
 
-use Sergiors\Worker\Command\AbstractCommand;
+use Sergiors\Worker\Command\CommandInterface;
 
-class BringMeBeer extends AbstractCommand
+class BringMeBeer implements CommandInterface
 {
     protected $who;
 
